@@ -8,6 +8,6 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 
 sudo mkdir -p /usr/lib64/jvm
 
-#tar -xf jdk-7u79-linux-x64.tar.gz -C /usr/lib64/jvm
+tar -xf jdk-7u79-linux-x64.tar.gz -C /usr/lib64/jvm
 
-#rm jdk-7u79-linux-x64.tarsss.gz
+rm jdk-7u79-linux-x64.tar.gz
