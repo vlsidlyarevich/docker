@@ -10,6 +10,7 @@ http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
 
 sudo mkdir -p /usr/lib64/jvm
 
+#Installing java 7 jre
 tar -xf jdk-7u79-linux-x64.tar.gz -C /usr/lib64/jvm
 
 rm jdk-7u79-linux-x64.tar.gz
@@ -20,3 +21,7 @@ update-alternatives --install /usr/bin/javac javac /usr/lib64/jvm/jdk1.7.0_79/bi
 update-alternatives --install /usr/bin/java java /usr/lib64/jvm/jdk1.7.0_79/bin/java 1
 update-alternatives --config javac
 update-alternatives --config java
+
+#Updating variables.sh
+echo JAVA_HOME=/usr/lib64/jvm/ > /etc/profile.d/variables.sh
+echo 'PATH=$JAVA_HOME/bin:$PATH' >> /etc/profile.d/variables.sh
