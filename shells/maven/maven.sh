@@ -14,3 +14,4 @@ rm apache-maven-3.3.9-bin.tar.gz
 #Updating variables.sh
 echo M2_HOME=/opt/apache-maven-3.3.9 >> /etc/profile.d/variables.sh
 echo 'M2=$M2_HOME/bin' >> /etc/profile.d/variables.sh
+echo 'PATH=$CATALINA_HOME:$PATH' >> /etc/profile.d/variables.sh
