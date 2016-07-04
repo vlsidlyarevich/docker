@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 echo "Java 8 installing script"
 

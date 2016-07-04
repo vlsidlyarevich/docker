@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 GIT_NAME="Vladislav Sidlyarevich"
 GIT_EMAIL="vlsidlyarevich@gmail.com"
