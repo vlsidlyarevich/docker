@@ -16,9 +16,9 @@ wget http://www-eu.apache.org/dist/tomcat/tomcat-8/v8.0.36/bin/apache-tomcat-8.0
 tar -xf apache-tomcat-8.0.36.tar.gz -C ~/soft/
 rm apache-tomcat-8.0.36.tar.gz
 
-chown -R $(whoami) /opt/apache-tomcat-8.0.36/
-chmod -R 777 /opt/apache-tomcat-8.0.36/
+chown -R $(whoami) ~/soft/apache-tomcat-8.0.36/
+chmod -R 777 ~/soft/apache-tomcat-8.0.36/
 
 #Updating variables.sh
-echo CATALINA_HOME= ~/Soft/tomcat-8.0.36 >> /etc/profile.d/variables.sh
+echo CATALINA_HOME= ~/soft/tomcat-8.0.36 >> /etc/profile.d/variables.sh
 echo 'PATH=$CATALINA_HOME/bin:$PATH' >> /etc/profile.d/variables.sh
