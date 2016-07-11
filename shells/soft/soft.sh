@@ -6,7 +6,7 @@ NC='\033[0m'
 mkdir ~/soft
 
 #IDEA installation
-printf "*********${RED}Intelij IDEA installation${NC}*********\n"
+printf "*********${RED}Intellij IDEA installation${NC}*********\n"
 wget https://download.jetbrains.com/idea/ideaIU-2016.1.3.tar.gz
 
 tar -xf ideaIU-2016.1.3.tar.gz -C ~/soft/
