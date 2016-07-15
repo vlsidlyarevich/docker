@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "Java 7 installing script"
+RED='\033[0;31m'
+NC='\033[0m'
+
+printf "*********${RED}Java 7 installation${NC}*********\n"
 
 #Downloading java 7 jre
 

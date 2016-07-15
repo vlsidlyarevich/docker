@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "Java 8 installing script"
+RED='\033[0;31m'
+NC='\033[0m'
+
+printf "*********${RED}Java 8 installation${NC}*********\n"
 
 #Downloading java 8 jre
 

@@ -1,6 +1,9 @@
 #!/bin/bash
 
-echo "Apache maven installing script"
+RED='\033[0;31m'
+NC='\033[0m'
+
+printf "*********${RED}Apache maven installation${NC}*********\n"
 
 #Downloading apache maven
 
