@@ -1,4 +1,4 @@
-###Shell for installing git
+###Bash for installing git
 
 * installs git
 * configures global

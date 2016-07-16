@@ -1,4 +1,4 @@
-###Shell for installing apache maven
+###Bash for installing apache maven
 
 * installs apache maven
 * sets environmental variable

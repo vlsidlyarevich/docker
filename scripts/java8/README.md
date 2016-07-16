@@ -1,4 +1,4 @@
-###Shell for installing java 8
+###Bash for installing java 8
 
 * installs java 8 jdk
 * sets environmental variable

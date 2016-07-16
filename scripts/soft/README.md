@@ -1,4 +1,4 @@
-###Shell for installing necessary soft
+###Bash for installing necessary soft
 * installs Intellij IDEA
 * installs Apache Tomcat 8
 * installs Apache Jmeter 3
@@ -7,5 +7,5 @@
 
 
 #####Running
-type `sudo sh maven.sh` in terminal prompt
+type `sudo sh soft.sh` in terminal prompt
 restart the computer
