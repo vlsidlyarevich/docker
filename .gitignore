@@ -32,6 +32,8 @@
 
 # IntelliJ
 /out/
+.idea
+docker.iml
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
