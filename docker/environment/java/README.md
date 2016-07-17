@@ -1,7 +1,5 @@
-###Bash for installing git
+###Docker image for java 7
 
-* installs git
+* installs java
 * configures global
-
-#####Running
-type `sudo sh git.sh` in terminal prompt
+* updates ulternatives
