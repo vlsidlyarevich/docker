@@ -9,7 +9,8 @@ RUN wget --no-check-certificate --no-cookies --header \
     http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
 
 #Installing java 7 jre
-RUN tar -xf jdk-7u79-linux-x64.tar.gz -C /opt/jdk && rm jdk-7u79-linux-x64.tar.gz
+RUN mkdir -p /opt/jdk && tar -xf jdk-7u79-linux-x64.tar.gz \
+    -C /opt/jdk && rm jdk-7u79-linux-x64.tar.gz
 
 RUN update-alternatives --remove-all javac && \
     update-alternatives --remove-all java && \
