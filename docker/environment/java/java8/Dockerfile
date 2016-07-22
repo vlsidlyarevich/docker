@@ -9,7 +9,8 @@ RUN wget --no-check-certificate --no-cookies --header \
     http://download.oracle.com/otn-pub/java/jdk/8u92-b14/jdk-8u92-linux-x64.tar.gz
 
 #Installing java 8 jre
-RUN tar -xf jdk-8u92-linux-x64.tar.gz -C /opt/jdk && rm jdk-8u92-linux-x64.tar.gz
+RUN mkdir -p /opt/jdk && tar -xf jdk-8u92-linux-x64.tar.gz \
+    -C /opt/jdk && rm jdk-8u92-linux-x64.tar.gz
 
 RUN update-alternatives --remove-all javac && \
     update-alternatives --remove-all java && \
