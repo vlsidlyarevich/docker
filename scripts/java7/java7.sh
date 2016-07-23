@@ -26,5 +26,5 @@ update-alternatives --config javac
 update-alternatives --config java
 
 #Updating variables.sh
-echo JAVA_HOME=/usr/lib64/jvm/ > /etc/profile.d/variables.sh
-echo 'PATH=$JAVA_HOME/bin:$PATH' >> /etc/profile.d/variables.sh
+export JAVA_HOME=/usr/lib64/jvm
+export 'PATH=$JAVA_HOME/bin:$PATH'
