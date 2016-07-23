@@ -12,12 +12,12 @@ RUN wget --no-check-certificate --no-cookies --header \
 RUN mkdir -p /opt/jdk && tar -xf jdk-7u79-linux-x64.tar.gz \
     -C /opt/jdk && rm jdk-7u79-linux-x64.tar.gz
 
-RUN update-alternatives --remove-all javac && \
-    update-alternatives --remove-all java && \
+RUN update-alternatives --install /usr/bin/javaws javaws /opt/jdk/jdk1.7.0_79/bin/javaws 1 && \
     update-alternatives --install /usr/bin/javac javac /opt/jdk/jdk1.7.0_79/bin/javac 1 && \
-    update-alternatives --install /usr/bin/java java /otp/jdk/jdk1.7.0_79/bin/java 1 && \
-    update-alternatives --config javac && \
-    update-alternatives --config java &&
+    update-alternatives --install /usr/bin/java java /opt/jdk/jdk1.7.0_79/bin/java 1 && \
+    update-alternatives --set javac /opt/jdk/jdk1.7.0_79/bin/javac && \
+    update-alternatives --set java /opt/jdk/jdk1.7.0_79/bin/java && \
+    update-alternatives --set javaws /opt/jdk/jdk1.7.0_79/bin/javaws
 
 #Updating variables.sh
 ENV JAVA_HOME=/opt/jdk/jdk1.7.0_79
