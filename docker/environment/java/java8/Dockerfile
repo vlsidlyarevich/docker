@@ -21,4 +21,4 @@ RUN update-alternatives --install /usr/bin/javaws javaws /opt/jdk/jdk1.8.0_92/bi
 
 #Updating variables.sh
 ENV JAVA_HOME=/opt/jdk/jdk1.8.0_92
-ENV 'PATH=$JAVA_HOME/bin:$PATH'
+ENV PATH=$JAVA_HOME/bin:$PATH
