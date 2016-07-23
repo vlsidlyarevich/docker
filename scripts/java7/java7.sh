@@ -27,4 +27,4 @@ update-alternatives --set javaws /usr/lib64/jvm/jdk1.7.0_79/bin/javaws
 
 #Updating variables.sh
 export JAVA_HOME=/usr/lib64/jvm
-export 'PATH=$JAVA_HOME/bin:$PATH'
+export PATH=$JAVA_HOME/bin:$PATH
