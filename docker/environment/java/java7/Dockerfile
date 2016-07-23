@@ -21,4 +21,4 @@ RUN update-alternatives --install /usr/bin/javaws javaws /opt/jdk/jdk1.7.0_79/bi
 
 #Updating variables.sh
 ENV JAVA_HOME=/opt/jdk/jdk1.7.0_79
-ENV 'PATH=$JAVA_HOME/bin:$PATH'
+ENV PATH=$JAVA_HOME/bin:$PATH
