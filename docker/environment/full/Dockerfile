@@ -34,5 +34,6 @@ ENV JAVA_HOME=/opt/jdk/jdk1.8.0_92
 ENV 'PATH=$JAVA_HOME/bin:$PATH'
 ENV M2_HOME=/opt/apache-maven-3.3.9
 ENV 'M2=$M2_HOME/bin'
+ENV 'PATH=$PATH:$M2'
 ENV CATALINA_HOME= ~/opt/tomcat-8.0.36
 ENV 'PATH=$CATALINA_HOME/bin:$PATH'
