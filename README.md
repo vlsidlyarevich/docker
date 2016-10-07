@@ -14,3 +14,5 @@
 
 * [Java 7 image](https://github.com/vlsidlyarevich/docker/blob/master/docker/environment/java/java7/Dockerfile)
 * [Java 8 image](https://github.com/vlsidlyarevich/docker/blob/master/docker/environment/java/java8/Dockerfile)
+* [Java environment image](https://github.com/vlsidlyarevich/docker/blob/master/docker/environment/full/Dockerfile)
+* [InfluxDB image](https://github.com/vlsidlyarevich/docker/blob/master/docker/influxdb/Dockerfile)
