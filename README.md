@@ -1,6 +1,6 @@
 # Useful shell scripts and [docker](https://www.docker.com/) images
 
-###Useful installation scripts:
+### Useful installation scripts:
 
 * [Java 7](https://github.com/vlsidlyarevich/docker/blob/master/scripts/java7/java7.sh) and [Java 8](https://github.com/vlsidlyarevich/docker/blob/master/scripts/java8/java8.sh)
 * [Apache maven](https://github.com/vlsidlyarevich/docker/blob/master/scripts/maven/maven.sh)
@@ -10,7 +10,7 @@
 
 ---
 
-###[Docker](https://www.docker.com/) images
+### [Docker](https://www.docker.com/) images
 
 * [Java 7 image](https://github.com/vlsidlyarevich/docker/blob/master/docker/environment/java/java7/Dockerfile)
 * [Java 8 image](https://github.com/vlsidlyarevich/docker/blob/master/docker/environment/java/java8/Dockerfile)
